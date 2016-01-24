@@ -187,6 +187,10 @@ img.logo { height: 40px }
     padding-bottom: 80px;
     background: rgba(0, 90, 143, 0.9);
 }
+.coloroverlay-video {
+    padding-top: 120px;
+    background: rgba(0, 90, 143, 0.9);
+}
 .btn-colored {
     padding: 15px 25px;
     background-color: #2468A9;
@@ -344,7 +348,6 @@ outline: none;
 **************************/
 #overview {
     margin: 0px;
-    padding-top: 6rem;
     padding-bottom: 8rem;
     height: auto;
     display: block;
@@ -491,6 +494,52 @@ i.fa.fa-2x {
 }
 #books .owl-theme .owl-controls .owl-next {
     margin-top: 10px;
+    text-align: center;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: #2468A9;
+    top: 40%;
+    right: 0%;
+    border-radius: 0px;
+}
+.owl-controls i.fa {
+    padding: 12px 0;
+    position: relative;
+}
+
+/**************************
+*** Other Videos Section ***
+**************************/
+
+.video-img { margin: 1rem }
+.video-img a:hover img {
+    opacity: 0.8;
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform: scale(1.1); /* Firefox */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -o-transform: scale(1.1); /* Opera */
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+#videos .owl-theme .owl-controls .owl-prev {
+    margin-top: -25px;
+    text-align: center;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: #2468A9;
+    top: 40%;
+    left: 0%;
+    border-radius: 0px;
+}
+#videos .owl-theme .owl-controls .owl-next {
+    margin-top: -25px;
     text-align: center;
     position: absolute;
     width: 55px;
